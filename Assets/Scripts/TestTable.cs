@@ -9,7 +9,7 @@ public class TestTable : Table
     {
 		public int index { get; set; }
 
-		public int title { get; set; }
+		public string title { get; set; }
 
 		public int iValue { get; set; }
 		public float fValue { get; set; }
@@ -30,5 +30,10 @@ public class TestTable : Table
     {
         TableData data = InitData<TableData>(list, new TableData());
         m_table.Add(data.index, data);
+    }
+
+    public List<TableData> GetList()
+    {
+        return new List<TableData>(m_table.Values);
     }
 }
