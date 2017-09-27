@@ -170,6 +170,11 @@ public class TestTableEditor : EditorWindow
 
             EditorGUILayout.LabelField(string.Format("{0}", i + 1), GUILayout.ExpandWidth(false), GUILayout.Width(25));
 
+            // ///////////////////////////
+            // 여기에 test.csv의 내용을 출력해주세요.
+            // index, title, iValue, fValue 4개입니다.
+            // ///////////////////////////
+            
 			/// <summary>
 			/// <para>describe : 리스트에서 한 칸 아래로 내려갑니다.</para>
 			/// <para>tag : leeyonghyeon@corp.netease.com</para>
